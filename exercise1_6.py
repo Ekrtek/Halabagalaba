@@ -1,4 +1,4 @@
-total_coins = int(input("Anna 1-1000 senttiä:"))
+total_coins = int(input("Anna 1-1000 senttiä: \n"))
 sent_50 = total_coins // 50
 total_coins -= 50 * sent_50
 sent_20 = total_coins // 20
