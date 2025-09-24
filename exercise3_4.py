@@ -1,5 +1,7 @@
-money = int(input("Anna rahaa: \n"))
-price = int(input("Ostosten hinta: \n"))
+money = input("Anna rahaa: \n")
+money = int(money)
+price = input("Ostosten hinta: \n")
+price = int(price)
 
 if price < money:
     leftover = money - price
@@ -7,7 +9,8 @@ if price < money:
 elif price == money:
     print("Kiitos.")
 elif money < price:
-    more_money = int(input("Rahat eivät riitä, anna lisää rahaa: \n"))
+    more_money = input("Rahat eivät riitä, anna lisää rahaa: \n")
+    more_money = int(more_money)
     money += more_money
     if money < price:
         print("Sinulla ei ole tarpeeksi rahaa")

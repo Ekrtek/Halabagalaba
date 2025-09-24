@@ -1,5 +1,8 @@
-number1 = int(input("Anna ensimmäinen luku: \n"))
-number2 = int(input("Anna toinen luku: \n"))
+number1 = input("Anna ensimmäinen luku: \n")
+number1 = int(number1)
+number2 = input("Anna toinen luku: \n")
+number2 = int(number2)
+
 if number1 > number2:
     print(f"Suurempi luku = {number1}")
 elif number2 > number1:

@@ -1,4 +1,5 @@
-weather = int(input("Syötä päivän lämpötila: \n"))
+weather = input("Syötä päivän lämpötila: \n")
+weather = int(weather)
 if 0 <= weather <= 10:
     print("KYLMÄÄ")
 elif 11 <= weather <= 15:

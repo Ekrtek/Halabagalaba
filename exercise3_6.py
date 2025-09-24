@@ -1,4 +1,5 @@
-year = int(input("Year: \n"))
+year = input("Year: \n")
+year = int(year)
 karkausvuosi = False
 if year  % 400 == 0:
     karkausvuosi = True

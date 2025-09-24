@@ -1,4 +1,5 @@
-points = int(input("Anna pistemäärä: \n"))
+points = input("Anna pistemäärä: \n")
+points = int(points)
 if 0 <= points <= 50:
     print("Arvosana: 0")
 elif 51 <= points <= 60:

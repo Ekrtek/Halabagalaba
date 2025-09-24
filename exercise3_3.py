@@ -1,5 +1,7 @@
-hours = int(input("Syötä viikon työtunnit: \n"))
-hourly = float(input("Tuntipalkkasi: \n"))
+hours = input("Syötä viikon työtunnit: \n")
+hours = int(hours)
+hourly = input("Tuntipalkkasi: \n")
+hourly = float(hourly)
 if hours > 40:
     overtime = hours - 40
     hours -= overtime
