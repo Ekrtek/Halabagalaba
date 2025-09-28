@@ -2,7 +2,7 @@ money = input("Anna rahaa: \n")
 money = int(money)
 price = input("Ostosten hinta: \n")
 price = int(price)
-
+# selvitämme onko käyttäjällä tarpeeksi rahaa sekä onko lisätä jos ei ole
 if price < money:
     leftover = money - price
     print(f"Kiitos. Annetaan takaisin {leftover} €")

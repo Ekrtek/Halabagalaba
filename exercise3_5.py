@@ -1,5 +1,7 @@
+# pyydetään käyttäjältä pistemäärä
 points = input("Anna pistemäärä: \n")
 points = int(points)
+# tarkistetaan mihin pistemäärä voi sijoittaa alla olevien mukaan.
 if 0 <= points <= 50:
     print("Arvosana: 0")
 elif 51 <= points <= 60:
